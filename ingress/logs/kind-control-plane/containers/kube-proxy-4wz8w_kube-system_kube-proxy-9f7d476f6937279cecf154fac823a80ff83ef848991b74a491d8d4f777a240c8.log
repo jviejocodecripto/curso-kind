@@ -1,0 +1,26 @@
+2022-07-02T14:41:26.1813217Z stderr F E0702 14:41:26.181041       1 proxier.go:657] "Failed to read builtin modules file, you can ignore this message when kube-proxy is running inside container without mounting /lib/modules" err="open /lib/modules/5.10.16.3-microsoft-standard-WSL2/modules.builtin: no such file or directory" filePath="/lib/modules/5.10.16.3-microsoft-standard-WSL2/modules.builtin"
+2022-07-02T14:41:26.1967422Z stderr F I0702 14:41:26.196367       1 proxier.go:667] "Failed to load kernel module with modprobe, you can ignore this message when kube-proxy is running inside container without mounting /lib/modules" moduleName="ip_vs"
+2022-07-02T14:41:26.2001139Z stderr F I0702 14:41:26.199960       1 proxier.go:667] "Failed to load kernel module with modprobe, you can ignore this message when kube-proxy is running inside container without mounting /lib/modules" moduleName="ip_vs_rr"
+2022-07-02T14:41:26.203629Z stderr F I0702 14:41:26.203392       1 proxier.go:667] "Failed to load kernel module with modprobe, you can ignore this message when kube-proxy is running inside container without mounting /lib/modules" moduleName="ip_vs_wrr"
+2022-07-02T14:41:26.2074911Z stderr F I0702 14:41:26.206083       1 proxier.go:667] "Failed to load kernel module with modprobe, you can ignore this message when kube-proxy is running inside container without mounting /lib/modules" moduleName="ip_vs_sh"
+2022-07-02T14:41:26.2092513Z stderr F I0702 14:41:26.208985       1 proxier.go:667] "Failed to load kernel module with modprobe, you can ignore this message when kube-proxy is running inside container without mounting /lib/modules" moduleName="nf_conntrack"
+2022-07-02T14:41:26.2640718Z stderr F I0702 14:41:26.263765       1 node.go:163] Successfully retrieved node IP: 172.22.0.3
+2022-07-02T14:41:26.2641024Z stderr F I0702 14:41:26.263854       1 server_others.go:138] "Detected node IP" address="172.22.0.3"
+2022-07-02T14:41:26.3598743Z stderr F I0702 14:41:26.359748       1 server_others.go:206] "Using iptables Proxier"
+2022-07-02T14:41:26.3599297Z stderr F I0702 14:41:26.359834       1 server_others.go:213] "kube-proxy running in dual-stack mode" ipFamily=IPv4
+2022-07-02T14:41:26.3599411Z stderr F I0702 14:41:26.359858       1 server_others.go:214] "Creating dualStackProxier for iptables"
+2022-07-02T14:41:26.3600725Z stderr F I0702 14:41:26.359912       1 server_others.go:501] "Detect-local-mode set to ClusterCIDR, but no IPv6 cluster CIDR defined, , defaulting to no-op detect-local for IPv6"
+2022-07-02T14:41:26.363558Z stderr F I0702 14:41:26.363368       1 proxier.go:259] "Setting route_localnet=1, use nodePortAddresses to filter loopback addresses for NodePorts to skip it https://issues.k8s.io/90259"
+2022-07-02T14:41:26.3639954Z stderr F I0702 14:41:26.363769       1 proxier.go:259] "Setting route_localnet=1, use nodePortAddresses to filter loopback addresses for NodePorts to skip it https://issues.k8s.io/90259"
+2022-07-02T14:41:26.3644722Z stderr F I0702 14:41:26.364225       1 server.go:661] "Version info" version="v1.24.0"
+2022-07-02T14:41:26.3644867Z stderr F I0702 14:41:26.364276       1 server.go:663] "Golang settings" GOGC="" GOMAXPROCS="" GOTRACEBACK=""
+2022-07-02T14:41:26.3649747Z stderr F I0702 14:41:26.364802       1 conntrack.go:100] "Set sysctl" entry="net/netfilter/nf_conntrack_tcp_timeout_close_wait" value=3600
+2022-07-02T14:41:26.3687451Z stderr F I0702 14:41:26.368549       1 config.go:226] "Starting endpoint slice config controller"
+2022-07-02T14:41:26.3690432Z stderr F I0702 14:41:26.368759       1 config.go:317] "Starting service config controller"
+2022-07-02T14:41:26.3690566Z stderr F I0702 14:41:26.368832       1 config.go:444] "Starting node config controller"
+2022-07-02T14:41:26.3697317Z stderr F I0702 14:41:26.369534       1 shared_informer.go:255] Waiting for caches to sync for endpoint slice config
+2022-07-02T14:41:26.3700466Z stderr F I0702 14:41:26.369678       1 shared_informer.go:255] Waiting for caches to sync for service config
+2022-07-02T14:41:26.37006Z stderr F I0702 14:41:26.369735       1 shared_informer.go:255] Waiting for caches to sync for node config
+2022-07-02T14:41:26.4702665Z stderr F I0702 14:41:26.470012       1 shared_informer.go:262] Caches are synced for node config
+2022-07-02T14:41:26.4702841Z stderr F I0702 14:41:26.470066       1 shared_informer.go:262] Caches are synced for service config
+2022-07-02T14:41:26.470384Z stderr F I0702 14:41:26.470247       1 shared_informer.go:262] Caches are synced for endpoint slice config

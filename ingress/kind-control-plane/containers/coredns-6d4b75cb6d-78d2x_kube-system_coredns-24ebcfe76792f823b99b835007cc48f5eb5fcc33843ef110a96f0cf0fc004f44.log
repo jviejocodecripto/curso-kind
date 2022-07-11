@@ -1,0 +1,10 @@
+2022-07-02T14:41:26.3629686Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2022-07-02T14:41:27.3695999Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2022-07-02T14:41:31.1749793Z stdout F [WARNING] plugin/kubernetes: starting server with unsynced Kubernetes API
+2022-07-02T14:41:31.1751044Z stdout F .:53
+2022-07-02T14:41:31.1759653Z stdout F [INFO] plugin/reload: Running configuration MD5 = db32ca3650231d74073ff4cf814959a7
+2022-07-02T14:41:31.1759836Z stdout F CoreDNS-1.8.6
+2022-07-02T14:41:31.1759883Z stdout F linux/amd64, go1.17.1, 13a9191
+2022-07-02T14:41:31.3851414Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2022-07-02T14:41:41.3855753Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"
+2022-07-02T14:41:51.3868342Z stdout F [INFO] plugin/ready: Still waiting on: "kubernetes"

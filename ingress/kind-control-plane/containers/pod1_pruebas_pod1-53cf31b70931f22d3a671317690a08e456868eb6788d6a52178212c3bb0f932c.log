@@ -1,0 +1,26 @@
+2022-07-02T17:16:29.626487Z stdout F /docker-entrypoint.sh: /docker-entrypoint.d/ is not empty, will attempt to perform configuration
+2022-07-02T17:16:29.6265297Z stdout F /docker-entrypoint.sh: Looking for shell scripts in /docker-entrypoint.d/
+2022-07-02T17:16:29.6284329Z stdout F /docker-entrypoint.sh: Launching /docker-entrypoint.d/10-listen-on-ipv6-by-default.sh
+2022-07-02T17:16:29.640963Z stdout F 10-listen-on-ipv6-by-default.sh: info: Getting the checksum of /etc/nginx/conf.d/default.conf
+2022-07-02T17:16:29.6535821Z stdout F 10-listen-on-ipv6-by-default.sh: info: Enabled listen on IPv6 in /etc/nginx/conf.d/default.conf
+2022-07-02T17:16:29.6537317Z stdout F /docker-entrypoint.sh: Launching /docker-entrypoint.d/20-envsubst-on-templates.sh
+2022-07-02T17:16:29.6578684Z stdout F /docker-entrypoint.sh: Launching /docker-entrypoint.d/30-tune-worker-processes.sh
+2022-07-02T17:16:29.6596979Z stdout F /docker-entrypoint.sh: Configuration complete; ready for start up
+2022-07-02T17:16:29.6664215Z stderr F 2022/07/02 17:16:29 [notice] 1#1: using the "epoll" event method
+2022-07-02T17:16:29.6664405Z stderr F 2022/07/02 17:16:29 [notice] 1#1: nginx/1.23.0
+2022-07-02T17:16:29.6664455Z stderr F 2022/07/02 17:16:29 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022-07-02T17:16:29.666449Z stderr F 2022/07/02 17:16:29 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2022-07-02T17:16:29.666452Z stderr F 2022/07/02 17:16:29 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022-07-02T17:16:29.6664549Z stderr F 2022/07/02 17:16:29 [notice] 1#1: start worker processes
+2022-07-02T17:16:29.6666163Z stderr F 2022/07/02 17:16:29 [notice] 1#1: start worker process 34
+2022-07-02T17:16:29.6668114Z stderr F 2022/07/02 17:16:29 [notice] 1#1: start worker process 35
+2022-07-02T17:16:29.6670669Z stderr F 2022/07/02 17:16:29 [notice] 1#1: start worker process 36
+2022-07-02T17:16:29.6672885Z stderr F 2022/07/02 17:16:29 [notice] 1#1: start worker process 37
+2022-07-02T17:16:29.6675522Z stderr F 2022/07/02 17:16:29 [notice] 1#1: start worker process 38
+2022-07-02T17:16:29.6678587Z stderr F 2022/07/02 17:16:29 [notice] 1#1: start worker process 39
+2022-07-02T17:16:29.6681764Z stderr F 2022/07/02 17:16:29 [notice] 1#1: start worker process 40
+2022-07-02T17:16:29.6685167Z stderr F 2022/07/02 17:16:29 [notice] 1#1: start worker process 41
+2022-07-02T17:16:29.6689415Z stderr F 2022/07/02 17:16:29 [notice] 1#1: start worker process 42
+2022-07-02T17:16:29.6697867Z stderr F 2022/07/02 17:16:29 [notice] 1#1: start worker process 43
+2022-07-02T17:16:29.6702835Z stderr F 2022/07/02 17:16:29 [notice] 1#1: start worker process 44
+2022-07-02T17:16:29.670991Z stderr F 2022/07/02 17:16:29 [notice] 1#1: start worker process 45

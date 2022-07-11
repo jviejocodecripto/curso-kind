@@ -1,0 +1,477 @@
+2022-07-02T17:16:27.1374424Z stderr F I0702 17:16:27.137037       1 main.go:316] probe TCP address kind-control-plane:6443
+2022-07-02T17:16:27.1387135Z stderr F I0702 17:16:27.138481       1 main.go:102] connected to apiserver: https://kind-control-plane:6443
+2022-07-02T17:16:27.1388848Z stderr F I0702 17:16:27.138690       1 main.go:107] hostIP = 172.22.0.6
+2022-07-02T17:16:27.1389044Z stderr F podIP = 172.22.0.6
+2022-07-02T17:16:27.1394594Z stderr F I0702 17:16:27.139111       1 main.go:116] setting mtu 1500 for CNI 
+2022-07-02T17:16:27.1394792Z stderr F I0702 17:16:27.139274       1 main.go:146] kindnetd IP family: "ipv4"
+2022-07-02T17:16:27.1394861Z stderr F I0702 17:16:27.139298       1 main.go:150] noMask IPv4 subnets: [10.244.0.0/16]
+2022-07-02T17:16:27.5419462Z stderr F I0702 17:16:27.540879       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:16:27.5419675Z stderr F I0702 17:16:27.540939       1 main.go:227] handling current node
+2022-07-02T17:16:37.7647207Z stderr F I0702 17:16:37.764444       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:16:37.7647416Z stderr F I0702 17:16:37.764496       1 main.go:227] handling current node
+2022-07-02T17:16:47.7843666Z stderr F I0702 17:16:47.784151       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:16:47.7843845Z stderr F I0702 17:16:47.784183       1 main.go:227] handling current node
+2022-07-02T17:16:57.7992014Z stderr F I0702 17:16:57.798665       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:16:57.7992853Z stderr F I0702 17:16:57.798756       1 main.go:227] handling current node
+2022-07-02T17:17:07.8188246Z stderr F I0702 17:17:07.818635       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:17:07.8188443Z stderr F I0702 17:17:07.818665       1 main.go:227] handling current node
+2022-07-02T17:17:17.8336856Z stderr F I0702 17:17:17.833485       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:17:17.8337034Z stderr F I0702 17:17:17.833515       1 main.go:227] handling current node
+2022-07-02T17:17:27.8549174Z stderr F I0702 17:17:27.854718       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:17:27.8549387Z stderr F I0702 17:17:27.854752       1 main.go:227] handling current node
+2022-07-02T17:17:37.8972511Z stderr F I0702 17:17:37.896973       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:17:37.8972796Z stderr F I0702 17:17:37.897023       1 main.go:227] handling current node
+2022-07-02T17:17:47.9357093Z stderr F I0702 17:17:47.935417       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:17:47.9357379Z stderr F I0702 17:17:47.935464       1 main.go:227] handling current node
+2022-07-02T17:17:57.9477118Z stderr F I0702 17:17:57.947530       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:17:57.9477307Z stderr F I0702 17:17:57.947561       1 main.go:227] handling current node
+2022-07-02T17:18:07.9643623Z stderr F I0702 17:18:07.964150       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:18:07.9643798Z stderr F I0702 17:18:07.964180       1 main.go:227] handling current node
+2022-07-02T17:18:17.9968053Z stderr F I0702 17:18:17.996502       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:18:17.9968314Z stderr F I0702 17:18:17.996549       1 main.go:227] handling current node
+2022-07-02T17:18:28.0078645Z stderr F I0702 17:18:28.007639       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:18:28.0078882Z stderr F I0702 17:18:28.007679       1 main.go:227] handling current node
+2022-07-02T17:18:38.0397279Z stderr F I0702 17:18:38.039419       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:18:38.0397538Z stderr F I0702 17:18:38.039466       1 main.go:227] handling current node
+2022-07-02T17:18:48.0556383Z stderr F I0702 17:18:48.055451       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:18:48.0556575Z stderr F I0702 17:18:48.055485       1 main.go:227] handling current node
+2022-07-02T17:18:58.0663251Z stderr F I0702 17:18:58.066136       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:18:58.0663564Z stderr F I0702 17:18:58.066166       1 main.go:227] handling current node
+2022-07-02T17:19:08.0992887Z stderr F I0702 17:19:08.099085       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:19:08.0993597Z stderr F I0702 17:19:08.099122       1 main.go:227] handling current node
+2022-07-02T17:19:18.110527Z stderr F I0702 17:19:18.110317       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:19:18.1105467Z stderr F I0702 17:19:18.110347       1 main.go:227] handling current node
+2022-07-02T17:19:28.1210097Z stderr F I0702 17:19:28.120815       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:19:28.1210288Z stderr F I0702 17:19:28.120846       1 main.go:227] handling current node
+2022-07-02T17:19:38.1312257Z stderr F I0702 17:19:38.131006       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:19:38.1312455Z stderr F I0702 17:19:38.131036       1 main.go:227] handling current node
+2022-07-02T17:19:48.1452127Z stderr F I0702 17:19:48.144972       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:19:48.1452335Z stderr F I0702 17:19:48.145019       1 main.go:227] handling current node
+2022-07-02T17:19:58.1556492Z stderr F I0702 17:19:58.155473       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:19:58.1557136Z stderr F I0702 17:19:58.155508       1 main.go:227] handling current node
+2022-07-02T17:20:08.1717104Z stderr F I0702 17:20:08.171523       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:20:08.1717316Z stderr F I0702 17:20:08.171555       1 main.go:227] handling current node
+2022-07-02T17:20:18.1804921Z stderr F I0702 17:20:18.180266       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:20:18.1805127Z stderr F I0702 17:20:18.180297       1 main.go:227] handling current node
+2022-07-02T17:20:28.1902325Z stderr F I0702 17:20:28.190067       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:20:28.1902603Z stderr F I0702 17:20:28.190100       1 main.go:227] handling current node
+2022-07-02T17:20:38.1983267Z stderr F I0702 17:20:38.198172       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:20:38.1983686Z stderr F I0702 17:20:38.198206       1 main.go:227] handling current node
+2022-07-02T17:20:48.2132191Z stderr F I0702 17:20:48.212998       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:20:48.2132379Z stderr F I0702 17:20:48.213029       1 main.go:227] handling current node
+2022-07-02T17:20:58.2273026Z stderr F I0702 17:20:58.227078       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:20:58.2273232Z stderr F I0702 17:20:58.227110       1 main.go:227] handling current node
+2022-07-02T17:21:08.2404946Z stderr F I0702 17:21:08.240309       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:21:08.2405146Z stderr F I0702 17:21:08.240342       1 main.go:227] handling current node
+2022-07-02T17:21:18.2545362Z stderr F I0702 17:21:18.254265       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:21:18.2545616Z stderr F I0702 17:21:18.254336       1 main.go:227] handling current node
+2022-07-02T17:21:28.2644903Z stderr F I0702 17:21:28.264297       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:21:28.2645093Z stderr F I0702 17:21:28.264328       1 main.go:227] handling current node
+2022-07-02T17:21:38.2879738Z stderr F I0702 17:21:38.287688       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:21:38.2879968Z stderr F I0702 17:21:38.287736       1 main.go:227] handling current node
+2022-07-02T17:21:48.3137539Z stderr F I0702 17:21:48.313466       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:21:48.3137791Z stderr F I0702 17:21:48.313511       1 main.go:227] handling current node
+2022-07-02T17:21:58.3239837Z stderr F I0702 17:21:58.323733       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:21:58.3240065Z stderr F I0702 17:21:58.323768       1 main.go:227] handling current node
+2022-07-02T17:22:08.3555716Z stderr F I0702 17:22:08.355301       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:22:08.3555957Z stderr F I0702 17:22:08.355358       1 main.go:227] handling current node
+2022-07-02T17:22:18.370493Z stderr F I0702 17:22:18.370201       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:22:18.3705182Z stderr F I0702 17:22:18.370247       1 main.go:227] handling current node
+2022-07-02T17:22:28.3864043Z stderr F I0702 17:22:28.386102       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:22:28.3864284Z stderr F I0702 17:22:28.386151       1 main.go:227] handling current node
+2022-07-02T17:22:38.4103152Z stderr F I0702 17:22:38.409994       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:22:38.4103431Z stderr F I0702 17:22:38.410048       1 main.go:227] handling current node
+2022-07-02T17:22:48.4330631Z stderr F I0702 17:22:48.432853       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:22:48.4330862Z stderr F I0702 17:22:48.432893       1 main.go:227] handling current node
+2022-07-02T17:22:58.4416682Z stderr F I0702 17:22:58.441438       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:22:58.4416871Z stderr F I0702 17:22:58.441468       1 main.go:227] handling current node
+2022-07-02T17:23:08.4554416Z stderr F I0702 17:23:08.455227       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:23:08.4554592Z stderr F I0702 17:23:08.455256       1 main.go:227] handling current node
+2022-07-02T17:23:18.4636274Z stderr F I0702 17:23:18.463423       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:23:18.4636461Z stderr F I0702 17:23:18.463453       1 main.go:227] handling current node
+2022-07-02T17:23:28.4758166Z stderr F I0702 17:23:28.475615       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:23:28.4758383Z stderr F I0702 17:23:28.475656       1 main.go:227] handling current node
+2022-07-02T17:23:38.4935767Z stderr F I0702 17:23:38.493381       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:23:38.4935978Z stderr F I0702 17:23:38.493425       1 main.go:227] handling current node
+2022-07-02T17:23:48.5029658Z stderr F I0702 17:23:48.502773       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:23:48.5029832Z stderr F I0702 17:23:48.502804       1 main.go:227] handling current node
+2022-07-02T17:23:58.514972Z stderr F I0702 17:23:58.514777       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:23:58.5149921Z stderr F I0702 17:23:58.514811       1 main.go:227] handling current node
+2022-07-02T17:24:08.5194507Z stderr F I0702 17:24:08.519237       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:24:08.519478Z stderr F I0702 17:24:08.519278       1 main.go:227] handling current node
+2022-07-02T17:24:18.5339395Z stderr F I0702 17:24:18.533785       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:24:18.5339755Z stderr F I0702 17:24:18.533816       1 main.go:227] handling current node
+2022-07-02T17:24:28.5424902Z stderr F I0702 17:24:28.542308       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:24:28.5425095Z stderr F I0702 17:24:28.542339       1 main.go:227] handling current node
+2022-07-02T17:24:38.5504084Z stderr F I0702 17:24:38.550215       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:24:38.5504306Z stderr F I0702 17:24:38.550246       1 main.go:227] handling current node
+2022-07-02T17:24:48.5590727Z stderr F I0702 17:24:48.558890       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:24:48.5590907Z stderr F I0702 17:24:48.558920       1 main.go:227] handling current node
+2022-07-02T17:24:58.5710033Z stderr F I0702 17:24:58.570786       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:24:58.5710378Z stderr F I0702 17:24:58.570816       1 main.go:227] handling current node
+2022-07-02T17:25:08.5787095Z stderr F I0702 17:25:08.578497       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:25:08.5787279Z stderr F I0702 17:25:08.578527       1 main.go:227] handling current node
+2022-07-02T17:25:18.5890974Z stderr F I0702 17:25:18.588880       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:25:18.5891357Z stderr F I0702 17:25:18.588912       1 main.go:227] handling current node
+2022-07-02T17:25:28.599598Z stderr F I0702 17:25:28.599316       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:25:28.5996216Z stderr F I0702 17:25:28.599359       1 main.go:227] handling current node
+2022-07-02T17:25:38.6101743Z stderr F I0702 17:25:38.609994       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:25:38.6102018Z stderr F I0702 17:25:38.610025       1 main.go:227] handling current node
+2022-07-02T17:25:48.6179749Z stderr F I0702 17:25:48.617769       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:25:48.6179941Z stderr F I0702 17:25:48.617799       1 main.go:227] handling current node
+2022-07-02T17:25:58.6448512Z stderr F I0702 17:25:58.644518       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:25:58.6448938Z stderr F I0702 17:25:58.644579       1 main.go:227] handling current node
+2022-07-02T17:26:08.6711127Z stderr F I0702 17:26:08.670724       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:26:08.671142Z stderr F I0702 17:26:08.670778       1 main.go:227] handling current node
+2022-07-02T17:26:18.6945462Z stderr F I0702 17:26:18.694080       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:26:18.6945814Z stderr F I0702 17:26:18.694150       1 main.go:227] handling current node
+2022-07-02T17:26:28.7173264Z stderr F I0702 17:26:28.717008       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:26:28.7173582Z stderr F I0702 17:26:28.717074       1 main.go:227] handling current node
+2022-07-02T17:26:38.7325178Z stderr F I0702 17:26:38.732303       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:26:38.7325378Z stderr F I0702 17:26:38.732333       1 main.go:227] handling current node
+2022-07-02T17:26:48.7467271Z stderr F I0702 17:26:48.746512       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:26:48.7467478Z stderr F I0702 17:26:48.746543       1 main.go:227] handling current node
+2022-07-02T17:26:58.7579504Z stderr F I0702 17:26:58.757748       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:26:58.7579674Z stderr F I0702 17:26:58.757789       1 main.go:227] handling current node
+2022-07-02T17:27:08.7680729Z stderr F I0702 17:27:08.767922       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:27:08.7680913Z stderr F I0702 17:27:08.767953       1 main.go:227] handling current node
+2022-07-02T17:27:18.7842159Z stderr F I0702 17:27:18.783830       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:27:18.7842451Z stderr F I0702 17:27:18.783894       1 main.go:227] handling current node
+2022-07-02T17:27:28.7956444Z stderr F I0702 17:27:28.795449       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:27:28.7956647Z stderr F I0702 17:27:28.795482       1 main.go:227] handling current node
+2022-07-02T17:27:38.8217169Z stderr F I0702 17:27:38.821331       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:27:38.8217554Z stderr F I0702 17:27:38.821407       1 main.go:227] handling current node
+2022-07-02T17:27:48.8425008Z stderr F I0702 17:27:48.842072       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:27:48.8425365Z stderr F I0702 17:27:48.842141       1 main.go:227] handling current node
+2022-07-02T17:27:58.8691382Z stderr F I0702 17:27:58.868747       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:27:58.86917Z stderr F I0702 17:27:58.868812       1 main.go:227] handling current node
+2022-07-02T17:28:08.881151Z stderr F I0702 17:28:08.880845       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:28:08.8811836Z stderr F I0702 17:28:08.880903       1 main.go:227] handling current node
+2022-07-02T17:28:18.8999688Z stderr F I0702 17:28:18.899554       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:28:18.9000063Z stderr F I0702 17:28:18.899625       1 main.go:227] handling current node
+2022-07-02T17:28:28.9053161Z stderr F I0702 17:28:28.905084       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:28:28.9053373Z stderr F I0702 17:28:28.905123       1 main.go:227] handling current node
+2022-07-02T17:28:38.9221776Z stderr F I0702 17:28:38.921769       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:28:38.922215Z stderr F I0702 17:28:38.921838       1 main.go:227] handling current node
+2022-07-02T17:28:48.9293038Z stderr F I0702 17:28:48.928981       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:28:48.9293367Z stderr F I0702 17:28:48.929038       1 main.go:227] handling current node
+2022-07-02T17:28:58.9382655Z stderr F I0702 17:28:58.938033       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:28:58.9382847Z stderr F I0702 17:28:58.938062       1 main.go:227] handling current node
+2022-07-02T17:29:08.9480517Z stderr F I0702 17:29:08.947601       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:29:08.9480941Z stderr F I0702 17:29:08.947689       1 main.go:227] handling current node
+2022-07-02T17:29:18.9603429Z stderr F I0702 17:29:18.960118       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:29:18.960362Z stderr F I0702 17:29:18.960149       1 main.go:227] handling current node
+2022-07-02T17:29:28.989109Z stderr F I0702 17:29:28.988896       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:29:28.9891279Z stderr F I0702 17:29:28.988926       1 main.go:227] handling current node
+2022-07-02T17:29:39.0122216Z stderr F I0702 17:29:39.012008       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:29:39.0122415Z stderr F I0702 17:29:39.012038       1 main.go:227] handling current node
+2022-07-02T17:29:49.0364033Z stderr F I0702 17:29:49.036169       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:29:49.0364253Z stderr F I0702 17:29:49.036203       1 main.go:227] handling current node
+2022-07-02T17:29:59.0617522Z stderr F I0702 17:29:59.061531       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:29:59.0617711Z stderr F I0702 17:29:59.061563       1 main.go:227] handling current node
+2022-07-02T17:30:09.0779158Z stderr F I0702 17:30:09.077741       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:30:09.077936Z stderr F I0702 17:30:09.077758       1 main.go:227] handling current node
+2022-07-02T17:30:19.0975586Z stderr F I0702 17:30:19.097370       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:30:19.0975798Z stderr F I0702 17:30:19.097400       1 main.go:227] handling current node
+2022-07-02T17:30:29.1304065Z stderr F I0702 17:30:29.130167       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:30:29.1304292Z stderr F I0702 17:30:29.130203       1 main.go:227] handling current node
+2022-07-02T17:30:39.176413Z stderr F I0702 17:30:39.176170       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:30:39.1764348Z stderr F I0702 17:30:39.176206       1 main.go:227] handling current node
+2022-07-02T17:30:49.2051797Z stderr F I0702 17:30:49.204884       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:30:49.2052331Z stderr F I0702 17:30:49.204933       1 main.go:227] handling current node
+2022-07-02T17:30:59.2301941Z stderr F I0702 17:30:59.229958       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:30:59.2302138Z stderr F I0702 17:30:59.229988       1 main.go:227] handling current node
+2022-07-02T17:31:09.2586638Z stderr F I0702 17:31:09.258452       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:31:09.2586838Z stderr F I0702 17:31:09.258519       1 main.go:227] handling current node
+2022-07-02T17:31:19.2784529Z stderr F I0702 17:31:19.278256       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:31:19.2784733Z stderr F I0702 17:31:19.278293       1 main.go:227] handling current node
+2022-07-02T17:31:29.2967546Z stderr F I0702 17:31:29.296581       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:31:29.2967749Z stderr F I0702 17:31:29.296612       1 main.go:227] handling current node
+2022-07-02T17:31:39.312648Z stderr F I0702 17:31:39.312410       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:31:39.3127248Z stderr F I0702 17:31:39.312440       1 main.go:227] handling current node
+2022-07-02T17:31:49.3372001Z stderr F I0702 17:31:49.337015       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:31:49.337215Z stderr F I0702 17:31:49.337046       1 main.go:227] handling current node
+2022-07-02T17:31:59.3439122Z stderr F I0702 17:31:59.343588       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:31:59.343941Z stderr F I0702 17:31:59.343639       1 main.go:227] handling current node
+2022-07-02T17:32:09.3809881Z stderr F I0702 17:32:09.380764       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:32:09.3810101Z stderr F I0702 17:32:09.380839       1 main.go:227] handling current node
+2022-07-02T17:32:19.4109463Z stderr F I0702 17:32:19.410736       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:32:19.4109743Z stderr F I0702 17:32:19.410775       1 main.go:227] handling current node
+2022-07-02T17:32:29.4284009Z stderr F I0702 17:32:29.428186       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:32:29.4284214Z stderr F I0702 17:32:29.428228       1 main.go:227] handling current node
+2022-07-02T17:32:39.4476024Z stderr F I0702 17:32:39.447440       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:32:39.4476251Z stderr F I0702 17:32:39.447475       1 main.go:227] handling current node
+2022-07-02T17:32:49.4659817Z stderr F I0702 17:32:49.465814       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:32:49.4660016Z stderr F I0702 17:32:49.465844       1 main.go:227] handling current node
+2022-07-02T17:32:59.4854913Z stderr F I0702 17:32:59.485227       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:32:59.4855475Z stderr F I0702 17:32:59.485269       1 main.go:227] handling current node
+2022-07-02T17:33:09.509287Z stderr F I0702 17:33:09.509098       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:33:09.5093066Z stderr F I0702 17:33:09.509137       1 main.go:227] handling current node
+2022-07-02T17:33:19.535056Z stderr F I0702 17:33:19.534834       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:33:19.5350749Z stderr F I0702 17:33:19.534867       1 main.go:227] handling current node
+2022-07-02T17:33:29.5523548Z stderr F I0702 17:33:29.552201       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:33:29.5523746Z stderr F I0702 17:33:29.552232       1 main.go:227] handling current node
+2022-07-02T17:33:39.5773492Z stderr F I0702 17:33:39.577061       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:33:39.5773925Z stderr F I0702 17:33:39.577097       1 main.go:227] handling current node
+2022-07-02T17:33:49.592526Z stderr F I0702 17:33:49.592308       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:33:49.5925446Z stderr F I0702 17:33:49.592338       1 main.go:227] handling current node
+2022-07-02T17:33:59.6087519Z stderr F I0702 17:33:59.608537       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:33:59.6087814Z stderr F I0702 17:33:59.608568       1 main.go:227] handling current node
+2022-07-02T17:34:09.6319071Z stderr F I0702 17:34:09.631686       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:34:09.6319252Z stderr F I0702 17:34:09.631717       1 main.go:227] handling current node
+2022-07-02T17:34:19.6536854Z stderr F I0702 17:34:19.653443       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:34:19.6537112Z stderr F I0702 17:34:19.653481       1 main.go:227] handling current node
+2022-07-02T17:34:29.6693158Z stderr F I0702 17:34:29.669053       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:34:29.6693398Z stderr F I0702 17:34:29.669089       1 main.go:227] handling current node
+2022-07-02T17:34:39.694653Z stderr F I0702 17:34:39.694400       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:34:39.6946736Z stderr F I0702 17:34:39.694436       1 main.go:227] handling current node
+2022-07-02T17:34:49.7133467Z stderr F I0702 17:34:49.713177       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:34:49.7133889Z stderr F I0702 17:34:49.713212       1 main.go:227] handling current node
+2022-07-02T17:34:59.7481212Z stderr F I0702 17:34:59.747846       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:34:59.748168Z stderr F I0702 17:34:59.747888       1 main.go:227] handling current node
+2022-07-02T17:35:09.7707131Z stderr F I0702 17:35:09.770545       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:35:09.7707392Z stderr F I0702 17:35:09.770580       1 main.go:227] handling current node
+2022-07-02T17:35:19.8042198Z stderr F I0702 17:35:19.804012       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:35:19.8042422Z stderr F I0702 17:35:19.804048       1 main.go:227] handling current node
+2022-07-02T17:35:29.8188832Z stderr F I0702 17:35:29.818688       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:35:29.8189029Z stderr F I0702 17:35:29.818720       1 main.go:227] handling current node
+2022-07-02T17:35:39.8354443Z stderr F I0702 17:35:39.835273       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:35:39.8354667Z stderr F I0702 17:35:39.835304       1 main.go:227] handling current node
+2022-07-02T17:35:49.8744372Z stderr F I0702 17:35:49.874197       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:35:49.8744578Z stderr F I0702 17:35:49.874233       1 main.go:227] handling current node
+2022-07-02T17:35:59.8895069Z stderr F I0702 17:35:59.889298       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:35:59.889531Z stderr F I0702 17:35:59.889335       1 main.go:227] handling current node
+2022-07-02T17:36:09.9027303Z stderr F I0702 17:36:09.902556       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:36:09.9027479Z stderr F I0702 17:36:09.902588       1 main.go:227] handling current node
+2022-07-02T17:36:19.941811Z stderr F I0702 17:36:19.941585       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:36:19.9418315Z stderr F I0702 17:36:19.941620       1 main.go:227] handling current node
+2022-07-02T17:36:29.9571066Z stderr F I0702 17:36:29.956909       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:36:29.9571327Z stderr F I0702 17:36:29.956941       1 main.go:227] handling current node
+2022-07-02T17:36:39.9768347Z stderr F I0702 17:36:39.976609       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:36:39.9768548Z stderr F I0702 17:36:39.976641       1 main.go:227] handling current node
+2022-07-02T17:36:49.9903025Z stderr F I0702 17:36:49.990079       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:36:49.9903213Z stderr F I0702 17:36:49.990109       1 main.go:227] handling current node
+2022-07-02T17:37:00.0312934Z stderr F I0702 17:37:00.031069       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:37:00.0313254Z stderr F I0702 17:37:00.031107       1 main.go:227] handling current node
+2022-07-02T17:37:10.0670534Z stderr F I0702 17:37:10.066794       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:37:10.0670742Z stderr F I0702 17:37:10.066840       1 main.go:227] handling current node
+2022-07-02T17:37:20.1091545Z stderr F I0702 17:37:20.108879       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:37:20.109179Z stderr F I0702 17:37:20.108921       1 main.go:227] handling current node
+2022-07-02T17:37:30.1185638Z stderr F I0702 17:37:30.118391       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:37:30.1185814Z stderr F I0702 17:37:30.118421       1 main.go:227] handling current node
+2022-07-02T17:37:40.1372229Z stderr F I0702 17:37:40.136997       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:37:40.1372431Z stderr F I0702 17:37:40.137029       1 main.go:227] handling current node
+2022-07-02T17:37:50.152374Z stderr F I0702 17:37:50.152130       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:37:50.1523965Z stderr F I0702 17:37:50.152164       1 main.go:227] handling current node
+2022-07-02T17:38:00.1729552Z stderr F I0702 17:38:00.172759       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:38:00.1729761Z stderr F I0702 17:38:00.172794       1 main.go:227] handling current node
+2022-07-02T17:38:10.1843712Z stderr F I0702 17:38:10.184225       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:38:10.1843918Z stderr F I0702 17:38:10.184256       1 main.go:227] handling current node
+2022-07-02T17:38:20.2054358Z stderr F I0702 17:38:20.205247       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:38:20.2054556Z stderr F I0702 17:38:20.205279       1 main.go:227] handling current node
+2022-07-02T17:38:30.229919Z stderr F I0702 17:38:30.229639       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:38:30.2299425Z stderr F I0702 17:38:30.229681       1 main.go:227] handling current node
+2022-07-02T17:38:40.2476116Z stderr F I0702 17:38:40.247448       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:38:40.2476438Z stderr F I0702 17:38:40.247479       1 main.go:227] handling current node
+2022-07-02T17:38:50.2668928Z stderr F I0702 17:38:50.266697       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:38:50.2669191Z stderr F I0702 17:38:50.266740       1 main.go:227] handling current node
+2022-07-02T17:39:00.2782396Z stderr F I0702 17:39:00.278065       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:39:00.278264Z stderr F I0702 17:39:00.278098       1 main.go:227] handling current node
+2022-07-02T17:39:10.2935995Z stderr F I0702 17:39:10.293376       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:39:10.2936224Z stderr F I0702 17:39:10.293407       1 main.go:227] handling current node
+2022-07-02T17:39:20.3091388Z stderr F I0702 17:39:20.308903       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:39:20.3091597Z stderr F I0702 17:39:20.308933       1 main.go:227] handling current node
+2022-07-02T17:39:30.3256392Z stderr F I0702 17:39:30.325442       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:39:30.3256626Z stderr F I0702 17:39:30.325473       1 main.go:227] handling current node
+2022-07-02T17:39:40.3430953Z stderr F I0702 17:39:40.342904       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:39:40.3431156Z stderr F I0702 17:39:40.342936       1 main.go:227] handling current node
+2022-07-02T17:39:50.3570378Z stderr F I0702 17:39:50.356815       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:39:50.3570565Z stderr F I0702 17:39:50.356847       1 main.go:227] handling current node
+2022-07-02T17:40:00.3772602Z stderr F I0702 17:40:00.377035       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:40:00.3772897Z stderr F I0702 17:40:00.377066       1 main.go:227] handling current node
+2022-07-02T17:40:10.4030812Z stderr F I0702 17:40:10.402877       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:40:10.4031024Z stderr F I0702 17:40:10.402899       1 main.go:227] handling current node
+2022-07-02T17:40:20.4217525Z stderr F I0702 17:40:20.421547       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:40:20.421776Z stderr F I0702 17:40:20.421582       1 main.go:227] handling current node
+2022-07-02T17:40:30.4363005Z stderr F I0702 17:40:30.436106       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:40:30.4363202Z stderr F I0702 17:40:30.436139       1 main.go:227] handling current node
+2022-07-02T17:40:40.4559261Z stderr F I0702 17:40:40.455728       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:40:40.4559451Z stderr F I0702 17:40:40.455760       1 main.go:227] handling current node
+2022-07-02T17:40:50.4661598Z stderr F I0702 17:40:50.466007       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:40:50.4661896Z stderr F I0702 17:40:50.466038       1 main.go:227] handling current node
+2022-07-02T17:41:00.4993119Z stderr F I0702 17:41:00.499052       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:41:00.4993478Z stderr F I0702 17:41:00.499094       1 main.go:227] handling current node
+2022-07-02T17:41:10.5268309Z stderr F I0702 17:41:10.526590       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:41:10.5268541Z stderr F I0702 17:41:10.526629       1 main.go:227] handling current node
+2022-07-02T17:41:20.5472218Z stderr F I0702 17:41:20.546973       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:41:20.5472722Z stderr F I0702 17:41:20.547021       1 main.go:227] handling current node
+2022-07-02T17:41:30.5711961Z stderr F I0702 17:41:30.570936       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:41:30.5712177Z stderr F I0702 17:41:30.570977       1 main.go:227] handling current node
+2022-07-02T17:41:40.5961497Z stderr F I0702 17:41:40.595817       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:41:40.5961828Z stderr F I0702 17:41:40.595883       1 main.go:227] handling current node
+2022-07-02T17:41:50.6247689Z stderr F I0702 17:41:50.624607       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:41:50.6247882Z stderr F I0702 17:41:50.624640       1 main.go:227] handling current node
+2022-07-02T17:42:00.6465351Z stderr F I0702 17:42:00.646358       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:42:00.6465589Z stderr F I0702 17:42:00.646382       1 main.go:227] handling current node
+2022-07-02T17:42:10.6607325Z stderr F I0702 17:42:10.660531       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:42:10.6607585Z stderr F I0702 17:42:10.660570       1 main.go:227] handling current node
+2022-07-02T17:42:20.6871752Z stderr F I0702 17:42:20.686873       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:42:20.6872134Z stderr F I0702 17:42:20.686933       1 main.go:227] handling current node
+2022-07-02T17:42:30.704555Z stderr F I0702 17:42:30.704358       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:42:30.7046015Z stderr F I0702 17:42:30.704397       1 main.go:227] handling current node
+2022-07-02T17:42:40.7293814Z stderr F I0702 17:42:40.729163       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:42:40.7294049Z stderr F I0702 17:42:40.729201       1 main.go:227] handling current node
+2022-07-02T17:42:50.7487057Z stderr F I0702 17:42:50.748453       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:42:50.7487315Z stderr F I0702 17:42:50.748493       1 main.go:227] handling current node
+2022-07-02T17:43:00.7696164Z stderr F I0702 17:43:00.769384       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:43:00.7696698Z stderr F I0702 17:43:00.769425       1 main.go:227] handling current node
+2022-07-02T17:43:10.7866747Z stderr F I0702 17:43:10.786412       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:43:10.7866986Z stderr F I0702 17:43:10.786461       1 main.go:227] handling current node
+2022-07-02T17:43:20.8109351Z stderr F I0702 17:43:20.810722       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:43:20.810984Z stderr F I0702 17:43:20.810770       1 main.go:227] handling current node
+2022-07-02T17:43:30.8288794Z stderr F I0702 17:43:30.828633       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:43:30.828903Z stderr F I0702 17:43:30.828673       1 main.go:227] handling current node
+2022-07-02T17:43:40.8530872Z stderr F I0702 17:43:40.852844       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:43:40.853143Z stderr F I0702 17:43:40.852901       1 main.go:227] handling current node
+2022-07-02T17:43:50.8704493Z stderr F I0702 17:43:50.870133       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:43:50.8705066Z stderr F I0702 17:43:50.870188       1 main.go:227] handling current node
+2022-07-02T17:44:00.8896118Z stderr F I0702 17:44:00.889319       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:44:00.8896389Z stderr F I0702 17:44:00.889385       1 main.go:227] handling current node
+2022-07-02T17:44:10.9073454Z stderr F I0702 17:44:10.907025       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:44:10.9073781Z stderr F I0702 17:44:10.907091       1 main.go:227] handling current node
+2022-07-02T17:44:20.9211486Z stderr F I0702 17:44:20.920945       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:44:20.921172Z stderr F I0702 17:44:20.920981       1 main.go:227] handling current node
+2022-07-02T17:44:30.9380869Z stderr F I0702 17:44:30.937820       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:44:30.9381116Z stderr F I0702 17:44:30.937866       1 main.go:227] handling current node
+2022-07-02T17:44:40.9670506Z stderr F I0702 17:44:40.966775       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:44:40.9670827Z stderr F I0702 17:44:40.966818       1 main.go:227] handling current node
+2022-07-02T17:44:50.9895275Z stderr F I0702 17:44:50.989296       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:44:50.9895539Z stderr F I0702 17:44:50.989339       1 main.go:227] handling current node
+2022-07-02T17:45:01.0041116Z stderr F I0702 17:45:01.003912       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:45:01.0041498Z stderr F I0702 17:45:01.003937       1 main.go:227] handling current node
+2022-07-02T17:45:11.0316435Z stderr F I0702 17:45:11.031316       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:45:11.0316735Z stderr F I0702 17:45:11.031369       1 main.go:227] handling current node
+2022-07-02T17:45:21.058703Z stderr F I0702 17:45:21.058406       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:45:21.05873Z stderr F I0702 17:45:21.058457       1 main.go:227] handling current node
+2022-07-02T17:45:31.0697803Z stderr F I0702 17:45:31.069556       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:45:31.0698022Z stderr F I0702 17:45:31.069599       1 main.go:227] handling current node
+2022-07-02T17:45:41.0930146Z stderr F I0702 17:45:41.092788       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:45:41.0930383Z stderr F I0702 17:45:41.092830       1 main.go:227] handling current node
+2022-07-02T17:45:51.1025306Z stderr F I0702 17:45:51.102370       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:45:51.1025515Z stderr F I0702 17:45:51.102402       1 main.go:227] handling current node
+2022-07-02T17:46:01.1196684Z stderr F I0702 17:46:01.119442       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:46:01.1197047Z stderr F I0702 17:46:01.119473       1 main.go:227] handling current node
+2022-07-02T17:46:11.1287617Z stderr F I0702 17:46:11.128571       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:46:11.128782Z stderr F I0702 17:46:11.128603       1 main.go:227] handling current node
+2022-07-02T17:46:21.1410554Z stderr F I0702 17:46:21.140837       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:46:21.1410759Z stderr F I0702 17:46:21.140869       1 main.go:227] handling current node
+2022-07-02T17:46:31.1451094Z stderr F I0702 17:46:31.144931       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:46:31.1451293Z stderr F I0702 17:46:31.144963       1 main.go:227] handling current node
+2022-07-02T17:46:41.1730401Z stderr F I0702 17:46:41.172753       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:46:41.1730662Z stderr F I0702 17:46:41.172803       1 main.go:227] handling current node
+2022-07-02T17:46:51.1990803Z stderr F I0702 17:46:51.198808       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:46:51.1991112Z stderr F I0702 17:46:51.198838       1 main.go:227] handling current node
+2022-07-02T17:47:01.2267504Z stderr F I0702 17:47:01.226456       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:47:01.2267777Z stderr F I0702 17:47:01.226503       1 main.go:227] handling current node
+2022-07-02T17:47:11.234345Z stderr F I0702 17:47:11.234124       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:47:11.2343644Z stderr F I0702 17:47:11.234156       1 main.go:227] handling current node
+2022-07-02T17:47:21.2582105Z stderr F I0702 17:47:21.257867       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:47:21.2582419Z stderr F I0702 17:47:21.257934       1 main.go:227] handling current node
+2022-07-02T17:47:31.2673965Z stderr F I0702 17:47:31.267210       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:47:31.2674171Z stderr F I0702 17:47:31.267241       1 main.go:227] handling current node
+2022-07-02T17:47:41.293976Z stderr F I0702 17:47:41.293663       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:47:41.2940048Z stderr F I0702 17:47:41.293722       1 main.go:227] handling current node
+2022-07-02T17:47:51.3101883Z stderr F I0702 17:47:51.310013       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:47:51.3102085Z stderr F I0702 17:47:51.310044       1 main.go:227] handling current node
+2022-07-02T17:48:01.3224846Z stderr F I0702 17:48:01.322240       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:48:01.3225072Z stderr F I0702 17:48:01.322278       1 main.go:227] handling current node
+2022-07-02T17:48:11.3481598Z stderr F I0702 17:48:11.347955       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:48:11.348179Z stderr F I0702 17:48:11.347988       1 main.go:227] handling current node
+2022-07-02T17:48:21.3674908Z stderr F I0702 17:48:21.367190       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:48:21.367521Z stderr F I0702 17:48:21.367239       1 main.go:227] handling current node
+2022-07-02T17:48:31.3891821Z stderr F I0702 17:48:31.388887       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:48:31.3892099Z stderr F I0702 17:48:31.388937       1 main.go:227] handling current node
+2022-07-02T17:48:41.4060652Z stderr F I0702 17:48:41.405867       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:48:41.4061074Z stderr F I0702 17:48:41.405898       1 main.go:227] handling current node
+2022-07-02T17:48:51.4270093Z stderr F I0702 17:48:51.426691       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:48:51.427031Z stderr F I0702 17:48:51.426740       1 main.go:227] handling current node
+2022-07-02T17:49:01.4417936Z stderr F I0702 17:49:01.441604       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:49:01.4418386Z stderr F I0702 17:49:01.441636       1 main.go:227] handling current node
+2022-07-02T17:49:11.4583972Z stderr F I0702 17:49:11.458118       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:49:11.4584228Z stderr F I0702 17:49:11.458153       1 main.go:227] handling current node
+2022-07-02T17:49:21.4744361Z stderr F I0702 17:49:21.474225       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:49:21.4744607Z stderr F I0702 17:49:21.474270       1 main.go:227] handling current node
+2022-07-02T17:49:31.4854555Z stderr F I0702 17:49:31.485266       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:49:31.4854761Z stderr F I0702 17:49:31.485298       1 main.go:227] handling current node
+2022-07-02T17:49:41.4965769Z stderr F I0702 17:49:41.496355       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:49:41.4965962Z stderr F I0702 17:49:41.496386       1 main.go:227] handling current node
+2022-07-02T17:49:51.5045904Z stderr F I0702 17:49:51.504364       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:49:51.5046141Z stderr F I0702 17:49:51.504402       1 main.go:227] handling current node
+2022-07-02T17:50:01.5152697Z stderr F I0702 17:50:01.515034       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:50:01.5152904Z stderr F I0702 17:50:01.515065       1 main.go:227] handling current node
+2022-07-02T17:50:11.5318603Z stderr F I0702 17:50:11.531649       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:50:11.5318904Z stderr F I0702 17:50:11.531680       1 main.go:227] handling current node
+2022-07-02T17:50:21.5476296Z stderr F I0702 17:50:21.547397       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:50:21.5476478Z stderr F I0702 17:50:21.547428       1 main.go:227] handling current node
+2022-07-02T17:50:31.5611578Z stderr F I0702 17:50:31.560915       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:50:31.5611784Z stderr F I0702 17:50:31.560947       1 main.go:227] handling current node
+2022-07-02T17:50:41.582529Z stderr F I0702 17:50:41.582179       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:50:41.5825588Z stderr F I0702 17:50:41.582236       1 main.go:227] handling current node
+2022-07-02T17:50:51.5912662Z stderr F I0702 17:50:51.591048       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:50:51.5912859Z stderr F I0702 17:50:51.591079       1 main.go:227] handling current node
+2022-07-02T17:51:01.6124903Z stderr F I0702 17:51:01.612030       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:51:01.6125203Z stderr F I0702 17:51:01.612054       1 main.go:227] handling current node
+2022-07-02T17:51:11.6226146Z stderr F I0702 17:51:11.622400       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:51:11.6226361Z stderr F I0702 17:51:11.622440       1 main.go:227] handling current node
+2022-07-02T17:51:21.6311489Z stderr F I0702 17:51:21.630966       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:51:21.6311688Z stderr F I0702 17:51:21.630996       1 main.go:227] handling current node
+2022-07-02T17:51:31.6526847Z stderr F I0702 17:51:31.652339       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:51:31.6527139Z stderr F I0702 17:51:31.652397       1 main.go:227] handling current node
+2022-07-02T17:51:41.6748791Z stderr F I0702 17:51:41.674491       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:51:41.6749136Z stderr F I0702 17:51:41.674578       1 main.go:227] handling current node
+2022-07-02T17:51:51.6940925Z stderr F I0702 17:51:51.693816       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:51:51.6941149Z stderr F I0702 17:51:51.693869       1 main.go:227] handling current node
+2022-07-02T17:52:01.7023021Z stderr F I0702 17:52:01.702112       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:52:01.7023305Z stderr F I0702 17:52:01.702146       1 main.go:227] handling current node
+2022-07-02T17:52:11.7221602Z stderr F I0702 17:52:11.721786       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:52:11.722189Z stderr F I0702 17:52:11.721848       1 main.go:227] handling current node
+2022-07-02T17:52:21.7383876Z stderr F I0702 17:52:21.738055       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:52:21.7384146Z stderr F I0702 17:52:21.738112       1 main.go:227] handling current node
+2022-07-02T17:52:31.7487013Z stderr F I0702 17:52:31.748512       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:52:31.7487206Z stderr F I0702 17:52:31.748543       1 main.go:227] handling current node
+2022-07-02T17:52:41.7659191Z stderr F I0702 17:52:41.765552       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:52:41.7660281Z stderr F I0702 17:52:41.765620       1 main.go:227] handling current node
+2022-07-02T17:52:51.7770317Z stderr F I0702 17:52:51.776502       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:52:51.7770765Z stderr F I0702 17:52:51.776596       1 main.go:227] handling current node
+2022-07-02T17:53:01.7901732Z stderr F I0702 17:53:01.790017       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:53:01.7901936Z stderr F I0702 17:53:01.790049       1 main.go:227] handling current node
+2022-07-02T17:53:11.798999Z stderr F I0702 17:53:11.798791       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:53:11.7990179Z stderr F I0702 17:53:11.798823       1 main.go:227] handling current node
+2022-07-02T17:53:21.8043521Z stderr F I0702 17:53:21.804123       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:53:21.8043745Z stderr F I0702 17:53:21.804155       1 main.go:227] handling current node
+2022-07-02T17:53:31.8215044Z stderr F I0702 17:53:31.821092       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:53:31.821544Z stderr F I0702 17:53:31.821162       1 main.go:227] handling current node
+2022-07-02T17:53:41.8444067Z stderr F I0702 17:53:41.843878       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:53:41.8444568Z stderr F I0702 17:53:41.843972       1 main.go:227] handling current node
+2022-07-02T17:53:51.8475682Z stderr F I0702 17:53:51.847412       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:53:51.8476067Z stderr F I0702 17:53:51.847442       1 main.go:227] handling current node
+2022-07-02T17:54:01.8536105Z stderr F I0702 17:54:01.853400       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:54:01.8536286Z stderr F I0702 17:54:01.853430       1 main.go:227] handling current node
+2022-07-02T17:54:11.8670578Z stderr F I0702 17:54:11.866832       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:54:11.8670782Z stderr F I0702 17:54:11.866862       1 main.go:227] handling current node
+2022-07-02T17:54:21.872301Z stderr F I0702 17:54:21.872086       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:54:21.8723201Z stderr F I0702 17:54:21.872120       1 main.go:227] handling current node
+2022-07-02T17:54:31.8921979Z stderr F I0702 17:54:31.891688       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:54:31.8922431Z stderr F I0702 17:54:31.891779       1 main.go:227] handling current node
+2022-07-02T17:54:41.8959599Z stderr F I0702 17:54:41.895787       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:54:41.8959807Z stderr F I0702 17:54:41.895817       1 main.go:227] handling current node
+2022-07-02T17:54:51.9018367Z stderr F I0702 17:54:51.901655       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:54:51.9018569Z stderr F I0702 17:54:51.901687       1 main.go:227] handling current node
+2022-07-02T17:55:01.9052255Z stderr F I0702 17:55:01.905035       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:55:01.9052562Z stderr F I0702 17:55:01.905067       1 main.go:227] handling current node
+2022-07-02T17:55:11.9190243Z stderr F I0702 17:55:11.918538       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:55:11.9190718Z stderr F I0702 17:55:11.918634       1 main.go:227] handling current node
+2022-07-02T17:55:21.9224276Z stderr F I0702 17:55:21.922209       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:55:21.9224475Z stderr F I0702 17:55:21.922239       1 main.go:227] handling current node
+2022-07-02T17:55:31.9463424Z stderr F I0702 17:55:31.946105       1 main.go:223] Handling node with IPs: map[172.22.0.6:{}]
+2022-07-02T17:55:31.9463677Z stderr F I0702 17:55:31.946138       1 main.go:227] handling current node

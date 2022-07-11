@@ -1,0 +1,1 @@
+2022-07-02T17:16:57.6639877Z stderr F time="2022-07-02T17:16:57Z" level=fatal msg="Error starting daemon: Cannot start Provisioner: failed to get Kubernetes server version: Get \"https://10.96.0.1:443/version?timeout=32s\": dial tcp 10.96.0.1:443: i/o timeout" 

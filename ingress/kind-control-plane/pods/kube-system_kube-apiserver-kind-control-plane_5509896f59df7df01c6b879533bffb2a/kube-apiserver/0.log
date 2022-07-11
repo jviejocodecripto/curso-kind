@@ -1,0 +1,85 @@
+2022-07-02T17:16:19.016597Z stderr F I0702 17:16:19.016362       1 server.go:558] external host was not specified, using 172.22.0.6
+2022-07-02T17:16:19.0172264Z stderr F I0702 17:16:19.017056       1 server.go:158] Version: v1.24.0
+2022-07-02T17:16:19.0172386Z stderr F I0702 17:16:19.017108       1 server.go:160] "Golang settings" GOGC="" GOMAXPROCS="" GOTRACEBACK=""
+2022-07-02T17:16:19.4768261Z stderr F I0702 17:16:19.476615       1 shared_informer.go:255] Waiting for caches to sync for node_authorizer
+2022-07-02T17:16:19.4787949Z stderr F I0702 17:16:19.478616       1 plugins.go:158] Loaded 12 mutating admission controller(s) successfully in the following order: NamespaceLifecycle,LimitRanger,ServiceAccount,NodeRestriction,TaintNodesByCondition,Priority,DefaultTolerationSeconds,DefaultStorageClass,StorageObjectInUseProtection,RuntimeClass,DefaultIngressClass,MutatingAdmissionWebhook.
+2022-07-02T17:16:19.4788124Z stderr F I0702 17:16:19.478646       1 plugins.go:161] Loaded 11 validating admission controller(s) successfully in the following order: LimitRanger,ServiceAccount,PodSecurity,Priority,PersistentVolumeClaimResize,RuntimeClass,CertificateApproval,CertificateSigning,CertificateSubjectRestriction,ValidatingAdmissionWebhook,ResourceQuota.
+2022-07-02T17:16:19.4804648Z stderr F I0702 17:16:19.480260       1 plugins.go:158] Loaded 12 mutating admission controller(s) successfully in the following order: NamespaceLifecycle,LimitRanger,ServiceAccount,NodeRestriction,TaintNodesByCondition,Priority,DefaultTolerationSeconds,DefaultStorageClass,StorageObjectInUseProtection,RuntimeClass,DefaultIngressClass,MutatingAdmissionWebhook.
+2022-07-02T17:16:19.4804855Z stderr F I0702 17:16:19.480319       1 plugins.go:161] Loaded 11 validating admission controller(s) successfully in the following order: LimitRanger,ServiceAccount,PodSecurity,Priority,PersistentVolumeClaimResize,RuntimeClass,CertificateApproval,CertificateSigning,CertificateSubjectRestriction,ValidatingAdmissionWebhook,ResourceQuota.
+2022-07-02T17:16:19.9316906Z stderr F W0702 17:16:19.931476       1 genericapiserver.go:557] Skipping API apiextensions.k8s.io/v1beta1 because it has no resources.
+2022-07-02T17:16:19.9323526Z stderr F I0702 17:16:19.932177       1 instance.go:274] Using reconciler: lease
+2022-07-02T17:16:20.1043845Z stderr F I0702 17:16:20.104139       1 instance.go:586] API group "internal.apiserver.k8s.io" is not enabled, skipping.
+2022-07-02T17:16:20.6913588Z stderr F W0702 17:16:20.691148       1 genericapiserver.go:557] Skipping API authentication.k8s.io/v1beta1 because it has no resources.
+2022-07-02T17:16:20.6932935Z stderr F W0702 17:16:20.693076       1 genericapiserver.go:557] Skipping API authorization.k8s.io/v1beta1 because it has no resources.
+2022-07-02T17:16:20.708467Z stderr F W0702 17:16:20.708225       1 genericapiserver.go:557] Skipping API certificates.k8s.io/v1beta1 because it has no resources.
+2022-07-02T17:16:20.7103145Z stderr F W0702 17:16:20.710115       1 genericapiserver.go:557] Skipping API coordination.k8s.io/v1beta1 because it has no resources.
+2022-07-02T17:16:20.7156054Z stderr F W0702 17:16:20.715396       1 genericapiserver.go:557] Skipping API networking.k8s.io/v1beta1 because it has no resources.
+2022-07-02T17:16:20.7185082Z stderr F W0702 17:16:20.718321       1 genericapiserver.go:557] Skipping API node.k8s.io/v1alpha1 because it has no resources.
+2022-07-02T17:16:20.724133Z stderr F W0702 17:16:20.723937       1 genericapiserver.go:557] Skipping API rbac.authorization.k8s.io/v1beta1 because it has no resources.
+2022-07-02T17:16:20.7241557Z stderr F W0702 17:16:20.723982       1 genericapiserver.go:557] Skipping API rbac.authorization.k8s.io/v1alpha1 because it has no resources.
+2022-07-02T17:16:20.7259007Z stderr F W0702 17:16:20.725726       1 genericapiserver.go:557] Skipping API scheduling.k8s.io/v1beta1 because it has no resources.
+2022-07-02T17:16:20.7259173Z stderr F W0702 17:16:20.725772       1 genericapiserver.go:557] Skipping API scheduling.k8s.io/v1alpha1 because it has no resources.
+2022-07-02T17:16:20.7303091Z stderr F W0702 17:16:20.730142       1 genericapiserver.go:557] Skipping API storage.k8s.io/v1alpha1 because it has no resources.
+2022-07-02T17:16:20.736053Z stderr F W0702 17:16:20.735898       1 genericapiserver.go:557] Skipping API flowcontrol.apiserver.k8s.io/v1alpha1 because it has no resources.
+2022-07-02T17:16:20.7400267Z stderr F W0702 17:16:20.739882       1 genericapiserver.go:557] Skipping API apps/v1beta2 because it has no resources.
+2022-07-02T17:16:20.7400409Z stderr F W0702 17:16:20.739916       1 genericapiserver.go:557] Skipping API apps/v1beta1 because it has no resources.
+2022-07-02T17:16:20.7418674Z stderr F W0702 17:16:20.741707       1 genericapiserver.go:557] Skipping API admissionregistration.k8s.io/v1beta1 because it has no resources.
+2022-07-02T17:16:20.7451831Z stderr F I0702 17:16:20.745025       1 plugins.go:158] Loaded 12 mutating admission controller(s) successfully in the following order: NamespaceLifecycle,LimitRanger,ServiceAccount,NodeRestriction,TaintNodesByCondition,Priority,DefaultTolerationSeconds,DefaultStorageClass,StorageObjectInUseProtection,RuntimeClass,DefaultIngressClass,MutatingAdmissionWebhook.
+2022-07-02T17:16:20.7452012Z stderr F I0702 17:16:20.745059       1 plugins.go:161] Loaded 11 validating admission controller(s) successfully in the following order: LimitRanger,ServiceAccount,PodSecurity,Priority,PersistentVolumeClaimResize,RuntimeClass,CertificateApproval,CertificateSigning,CertificateSubjectRestriction,ValidatingAdmissionWebhook,ResourceQuota.
+2022-07-02T17:16:20.7639907Z stderr F W0702 17:16:20.763775       1 genericapiserver.go:557] Skipping API apiregistration.k8s.io/v1beta1 because it has no resources.
+2022-07-02T17:16:22.0040668Z stderr F I0702 17:16:22.003879       1 dynamic_cafile_content.go:157] "Starting controller" name="request-header::/etc/kubernetes/pki/front-proxy-ca.crt"
+2022-07-02T17:16:22.0042769Z stderr F I0702 17:16:22.004055       1 secure_serving.go:210] Serving securely on [::]:6443
+2022-07-02T17:16:22.0042917Z stderr F I0702 17:16:22.004115       1 dynamic_serving_content.go:132] "Starting controller" name="serving-cert::/etc/kubernetes/pki/apiserver.crt::/etc/kubernetes/pki/apiserver.key"
+2022-07-02T17:16:22.0042962Z stderr F I0702 17:16:22.004138       1 tlsconfig.go:240] "Starting DynamicServingCertificateController"
+2022-07-02T17:16:22.0043Z stderr F I0702 17:16:22.004166       1 dynamic_cafile_content.go:157] "Starting controller" name="client-ca-bundle::/etc/kubernetes/pki/ca.crt"
+2022-07-02T17:16:22.0044436Z stderr F I0702 17:16:22.004319       1 available_controller.go:491] Starting AvailableConditionController
+2022-07-02T17:16:22.004455Z stderr F I0702 17:16:22.004362       1 cache.go:32] Waiting for caches to sync for AvailableConditionController controller
+2022-07-02T17:16:22.0044593Z stderr F I0702 17:16:22.004369       1 dynamic_serving_content.go:132] "Starting controller" name="aggregator-proxy-cert::/etc/kubernetes/pki/front-proxy-client.crt::/etc/kubernetes/pki/front-proxy-client.key"
+2022-07-02T17:16:22.0044626Z stderr F I0702 17:16:22.004320       1 controller.go:80] Starting OpenAPI V3 AggregationController
+2022-07-02T17:16:22.004507Z stderr F I0702 17:16:22.004340       1 apf_controller.go:317] Starting API Priority and Fairness config controller
+2022-07-02T17:16:22.0045129Z stderr F I0702 17:16:22.004442       1 autoregister_controller.go:141] Starting autoregister controller
+2022-07-02T17:16:22.0045421Z stderr F I0702 17:16:22.004473       1 customresource_discovery_controller.go:209] Starting DiscoveryController
+2022-07-02T17:16:22.00455Z stderr F I0702 17:16:22.004512       1 crdregistration_controller.go:111] Starting crd-autoregister controller
+2022-07-02T17:16:22.0045537Z stderr F I0702 17:16:22.004521       1 shared_informer.go:255] Waiting for caches to sync for crd-autoregister
+2022-07-02T17:16:22.004647Z stderr F I0702 17:16:22.004556       1 controller.go:85] Starting OpenAPI controller
+2022-07-02T17:16:22.0046539Z stderr F I0702 17:16:22.004599       1 controller.go:85] Starting OpenAPI V3 controller
+2022-07-02T17:16:22.0047008Z stderr F I0702 17:16:22.004627       1 naming_controller.go:291] Starting NamingConditionController
+2022-07-02T17:16:22.0048221Z stderr F I0702 17:16:22.004685       1 establishing_controller.go:76] Starting EstablishingController
+2022-07-02T17:16:22.00483Z stderr F I0702 17:16:22.004730       1 nonstructuralschema_controller.go:192] Starting NonStructuralSchemaConditionController
+2022-07-02T17:16:22.0048333Z stderr F I0702 17:16:22.004751       1 apiapproval_controller.go:186] Starting KubernetesAPIApprovalPolicyConformantConditionController
+2022-07-02T17:16:22.0048862Z stderr F I0702 17:16:22.004822       1 crd_finalizer.go:266] Starting CRDFinalizer
+2022-07-02T17:16:22.0048932Z stderr F I0702 17:16:22.004478       1 cache.go:32] Waiting for caches to sync for autoregister controller
+2022-07-02T17:16:22.0050681Z stderr F I0702 17:16:22.004922       1 apiservice_controller.go:97] Starting APIServiceRegistrationController
+2022-07-02T17:16:22.0050797Z stderr F I0702 17:16:22.004957       1 cache.go:32] Waiting for caches to sync for APIServiceRegistrationController controller
+2022-07-02T17:16:22.0050846Z stderr F I0702 17:16:22.004984       1 controller.go:83] Starting OpenAPI AggregationController
+2022-07-02T17:16:22.0244932Z stderr F I0702 17:16:22.024380       1 cluster_authentication_trust_controller.go:440] Starting cluster_authentication_trust_controller controller
+2022-07-02T17:16:22.024534Z stderr F I0702 17:16:22.024424       1 shared_informer.go:255] Waiting for caches to sync for cluster_authentication_trust_controller
+2022-07-02T17:16:22.02454Z stderr F I0702 17:16:22.024450       1 dynamic_cafile_content.go:157] "Starting controller" name="client-ca-bundle::/etc/kubernetes/pki/ca.crt"
+2022-07-02T17:16:22.0253864Z stderr F I0702 17:16:22.025295       1 dynamic_cafile_content.go:157] "Starting controller" name="request-header::/etc/kubernetes/pki/front-proxy-ca.crt"
+2022-07-02T17:16:22.0775205Z stderr F I0702 17:16:22.077308       1 shared_informer.go:262] Caches are synced for node_authorizer
+2022-07-02T17:16:22.1053821Z stderr F I0702 17:16:22.105169       1 shared_informer.go:262] Caches are synced for crd-autoregister
+2022-07-02T17:16:22.105397Z stderr F I0702 17:16:22.105253       1 cache.go:39] Caches are synced for autoregister controller
+2022-07-02T17:16:22.105401Z stderr F I0702 17:16:22.105274       1 apf_controller.go:322] Running API Priority and Fairness config worker
+2022-07-02T17:16:22.1054304Z stderr F I0702 17:16:22.105302       1 cache.go:39] Caches are synced for AvailableConditionController controller
+2022-07-02T17:16:22.1054389Z stderr F I0702 17:16:22.105397       1 cache.go:39] Caches are synced for APIServiceRegistrationController controller
+2022-07-02T17:16:22.123578Z stderr F I0702 17:16:22.123436       1 controller.go:611] quota admission added evaluator for: leases.coordination.k8s.io
+2022-07-02T17:16:22.1256543Z stderr F I0702 17:16:22.125459       1 shared_informer.go:262] Caches are synced for cluster_authentication_trust_controller
+2022-07-02T17:16:22.7455335Z stderr F I0702 17:16:22.745154       1 controller.go:132] OpenAPI AggregationController: action for item : Nothing (removed from the queue).
+2022-07-02T17:16:22.7455778Z stderr F I0702 17:16:22.745225       1 controller.go:132] OpenAPI AggregationController: action for item k8s_internal_local_delegation_chain_0000000000: Nothing (removed from the queue).
+2022-07-02T17:16:23.0051575Z stderr F E0702 17:16:23.004906       1 controller.go:113] loading OpenAPI spec for "" failed with: APIService  does not exist for update
+2022-07-02T17:16:23.0051761Z stderr F I0702 17:16:23.004936       1 controller.go:126] OpenAPI AggregationController: action for item : Rate Limited Requeue.
+2022-07-02T17:16:23.0076564Z stderr F I0702 17:16:23.007469       1 storage_scheduling.go:111] all system priority classes are created successfully or already exist.
+2022-07-02T17:16:23.3708559Z stderr F W0702 17:16:23.370003       1 lease.go:234] Resetting endpoints for master service "kubernetes" to [172.22.0.6]
+2022-07-02T17:16:23.3763084Z stderr F I0702 17:16:23.375604       1 controller.go:611] quota admission added evaluator for: endpoints
+2022-07-02T17:16:23.3868202Z stderr F I0702 17:16:23.386482       1 controller.go:611] quota admission added evaluator for: endpointslices.discovery.k8s.io
+2022-07-02T17:16:28.8211327Z stderr F I0702 17:16:28.820931       1 controller.go:611] quota admission added evaluator for: events.events.k8s.io
+2022-07-02T17:17:23.0069191Z stderr F E0702 17:17:23.006148       1 controller.go:113] loading OpenAPI spec for "" failed with: APIService  does not exist for update
+2022-07-02T17:17:23.0069835Z stderr F I0702 17:17:23.006280       1 controller.go:126] OpenAPI AggregationController: action for item : Rate Limited Requeue.
+2022-07-02T17:19:23.0080323Z stderr F E0702 17:19:23.007413       1 controller.go:113] loading OpenAPI spec for "" failed with: APIService  does not exist for update
+2022-07-02T17:19:23.0080859Z stderr F I0702 17:19:23.007515       1 controller.go:126] OpenAPI AggregationController: action for item : Rate Limited Requeue.
+2022-07-02T17:23:23.0084108Z stderr F E0702 17:23:23.007768       1 controller.go:113] loading OpenAPI spec for "" failed with: APIService  does not exist for update
+2022-07-02T17:23:23.0084675Z stderr F I0702 17:23:23.007879       1 controller.go:126] OpenAPI AggregationController: action for item : Rate Limited Requeue.
+2022-07-02T17:31:23.0083351Z stderr F E0702 17:31:23.008083       1 controller.go:113] loading OpenAPI spec for "" failed with: APIService  does not exist for update
+2022-07-02T17:31:23.008355Z stderr F I0702 17:31:23.008114       1 controller.go:126] OpenAPI AggregationController: action for item : Rate Limited Requeue.
+2022-07-02T17:47:23.0102515Z stderr F E0702 17:47:23.009437       1 controller.go:113] loading OpenAPI spec for "" failed with: APIService  does not exist for update
+2022-07-02T17:47:23.010318Z stderr F I0702 17:47:23.009573       1 controller.go:126] OpenAPI AggregationController: action for item : Rate Limited Requeue.

@@ -1,0 +1,24 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: foo2
+spec:
+  containers:
+  - name: foo
+    image: hashicorp/http-echo:0.2.3
+    args:
+    - "-text=bar"
+    ports:
+    - containerPort: 5678
+  - name: bar
+    image: nginx
+    args:
+    ports:
+    - containerPort: 80
+  - name: busybox
+    image: busybox
+    args:
+    - sleep
+    - "1000000"
+
+

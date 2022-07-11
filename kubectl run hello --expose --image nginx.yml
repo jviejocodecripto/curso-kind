@@ -1,0 +1,3 @@
+kubectl run hello   --expose   --image nginxdemos/hello:plain-text   --port 80
+docker container inspect kind-control-plane   --format '{{ .NetworkSettings.Networks.kind.IPAddress }}'
+kubectl get node kind-control-plane   --output jsonpath='{@.spec.podCIDR}'

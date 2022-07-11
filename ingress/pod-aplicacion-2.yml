@@ -1,0 +1,13 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: pod-2
+  labels:
+    app: aplicacion-2
+spec:
+ containers:
+  - name: aplicacion-contenedor-2
+    image: hashicorp/http-echo:0.2.3
+    args:
+    - "-text=yo soy la aplicacion 222222"
+---    

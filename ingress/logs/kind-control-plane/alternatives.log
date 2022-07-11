@@ -1,0 +1,12 @@
+update-alternatives 2022-07-01 18:59:39: run with --set iptables /usr/sbin/iptables-legacy
+update-alternatives 2022-07-01 18:59:39: status of link group /usr/sbin/iptables set to manual
+update-alternatives 2022-07-01 18:59:39: link group iptables updated to point to /usr/sbin/iptables-legacy
+update-alternatives 2022-07-01 18:59:39: run with --set ip6tables /usr/sbin/ip6tables-legacy
+update-alternatives 2022-07-01 18:59:39: status of link group /usr/sbin/ip6tables set to manual
+update-alternatives 2022-07-01 18:59:39: link group ip6tables updated to point to /usr/sbin/ip6tables-legacy
+update-alternatives 2022-07-02 06:49:59: run with --set iptables /usr/sbin/iptables-legacy
+update-alternatives 2022-07-02 06:49:59: run with --set ip6tables /usr/sbin/ip6tables-legacy
+update-alternatives 2022-07-02 14:41:08: run with --set iptables /usr/sbin/iptables-legacy
+update-alternatives 2022-07-02 14:41:08: run with --set ip6tables /usr/sbin/ip6tables-legacy
+update-alternatives 2022-07-02 17:16:13: run with --set iptables /usr/sbin/iptables-legacy
+update-alternatives 2022-07-02 17:16:13: run with --set ip6tables /usr/sbin/ip6tables-legacy
